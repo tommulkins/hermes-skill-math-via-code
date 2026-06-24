@@ -16,7 +16,7 @@ hermes skills install https://raw.githubusercontent.com/tommulkins/hermes-skill-
 
 ## What it does
 
-- Routes all 3+ number computations to `execute_code` or a Python script
+- Routes all calculations of 3 or more numbers to `execute_code` or a Python script
 - Enforces self-check assertions or cross-checks against source data
 - Covers common calculations: SDE, margins, growth rates, annualizations, rollups, weighted averages
 - Handles data from conversation, Excel/CSV files, or APIs
