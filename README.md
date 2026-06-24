@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="social-preview.png" alt="math-via-code — Hermes Skill" width="100%">
+</p>
+
 # math-via-code
 
 A [Hermes Agent](https://hermes-agent.nousresearch.com) skill that forces all arithmetic through code execution instead of in-head math.
@@ -16,7 +20,7 @@ hermes skills install https://raw.githubusercontent.com/tommulkins/hermes-skill-
 
 ## What it does
 
-- Routes all calculations of 3 or more numbers to `execute_code` or a Python script
+- Routes all calculations of 3 or more numbers through `execute_code` or a Python script
 - Enforces self-check assertions or cross-checks against source data
 - Covers common calculations: SDE, margins, growth rates, annualizations, rollups, weighted averages
 - Handles data from conversation, Excel/CSV files, or APIs
