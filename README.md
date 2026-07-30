@@ -14,8 +14,25 @@ The fix is simple: if there are more than two numbers involved, write code. Ever
 
 ## Install
 
+### Hermes tap (recommended)
+
+```bash
+hermes skills tap add tommulkins/hermes-skill-math-via-code
+hermes skills install tommulkins/hermes-skill-math-via-code/math-via-code
 ```
-hermes skills install https://raw.githubusercontent.com/tommulkins/hermes-skill-math-via-code/main/SKILL.md --category software-development --name math-via-code -y
+
+### skills.sh (any agent)
+
+```bash
+npx skills add tommulkins/hermes-skill-math-via-code
+```
+
+Works with Hermes, Claude Code, Cursor, Codex, and 70+ other agents.
+
+### Direct URL
+
+```bash
+hermes skills install https://raw.githubusercontent.com/tommulkins/hermes-skill-math-via-code/main/skills/math-via-code/SKILL.md --category software-development --name math-via-code -y
 ```
 
 ## What it does
